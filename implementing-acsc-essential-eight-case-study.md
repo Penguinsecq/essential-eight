@@ -112,10 +112,10 @@ This section is the most challenging for me to accomplish the Essential 8 Maturi
 
 From Microsoft, [https://learn.microsoft.com/en-us/compliance/anz/e8-app-control#application-control-for-windows](https://learn.microsoft.com/en-us/compliance/anz/e8-app-control#application-control-for-windows). While WDAC is preferred, it can be simpler and easier for most organizations to achieve ML1 using just AppLocker as a starting point, both solutions are complimentary.
 
-So, in this article, I am sharing how to implement "AppLocker" with MS Intune. You can find the comparison between WDAC and AppLocker to help you decide which one is appropriate for your environment here. [Application Control in practice](https://github.com/Penguinsecq/penguinsecq.github.io/blob/main/docs/acsc-essential-eight/application-control-in-practice.md)
+So, in this article, I am sharing how to implement "AppLocker" with MS Intune. You can find the comparison between WDAC and AppLocker to help you decide which one is appropriate for your environment here. [Application Control in practice (coming soon)!!!](https://github.com/Penguinsecq/penguinsecq.github.io/blob/main/docs/acsc-essential-eight/application-control-in-practice.md)
 
 1. Gathering required applications list as much as possible in your environment.
-2. Create your AppLocker control policies based list above. You can utilise the starter policy from NSA cyber here [NSA AppLocker Guidance (coming soon)!!!](https://github.com/nsacyber/AppLocker-Guidance)
+2. Create your AppLocker control policies based list above. You can utilise the starter policy from NSA cyber here [NSA AppLocker Guidance](https://github.com/nsacyber/AppLocker-Guidance)
 3. Deploy the policies in **Audit only** mode. You may need 2 versions for Windows 10 and 11. The deployment details is here. [AppLocker Deployment details (coming soon)!!!](https://github.com/Penguinsecq/penguinsecq.github.io/blob/main/docs/acsc-essential-eight/applocker-deployment-steps.md)
 4. Monitor Event Logs for a while, depends on your environment, but I would suggest more than 4 weeks, if your business has application will be running monthly or quarterly only.
 Check Event Viewer > Applications and Services Logs > Microsoft > Windows > AppLocker for Event ID 8003. You can find the important event id related to AppLocker here.
