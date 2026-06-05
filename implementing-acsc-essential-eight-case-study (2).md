@@ -102,7 +102,7 @@ This is why the asset register, third-party application and user accounts list a
 
 ---
 
-## Case study 3 - Application Control issue
+## Case study 3 - Application Control issue (In progress)
 
 Application control is a security approach designed to protect against malicious code executing on systems. When this security approach is implemented, it ensures only approved code such as executables, software libraries, scripts, installers, and drivers is authorized to execute.
 
